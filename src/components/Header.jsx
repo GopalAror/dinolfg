@@ -3,7 +3,7 @@ import aeroplanehero from "../assets/images/aeroplanehero.webp";
 const Header = () => {
     return (
         <div className='overflow-x-clip'>
-            <div className="max-w-[1132px] pt-[150px] sm:pt-[178px] px-3 mx-auto">
+            <div className="max-w-[1132px] px-3 mx-auto">
                 <div className="flex flex-wrap max-sm:flex-col-reverse flex-row -mx-3">
                     <div className="sm:w-5/12 w-full px-3 flex max-sm:pt-5 items-center justify-center">
                         <img className='w-full max-w-[394px] animate-bounce2' src={aeroplanehero} alt="aeroplane" data-aos="zoom-in" />
