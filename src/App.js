@@ -19,7 +19,7 @@ function App() {
     setpreloder(true)
     setTimeout(() => {
       setpreloder(false)
-    }, 2000);
+    }, 4000);
 
   }, [])
   useEffect(() => {

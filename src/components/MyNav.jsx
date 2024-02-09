@@ -9,8 +9,8 @@ const MyNav = () => {
         document.body.classList.toggle("max-lg:overflow-hidden");
     }
     return (
-        <div className=' px-3  w-full flex justify-center   pt-[13px]'>
-            <nav className="lg:pl-6 max-w-[1132px] mx-auto lg:pr-2 px-4 bg-white fixed w-full  top-[28px] z-[400] rounded-[61.102px] border-b-4 border-b-[black] flex items-center justify-between sm:mb-20 mb-10 h-[67px]">
+        <div className='max-w-[1132px] mx-auto px-3 pt-[13px]'>
+            <nav className="lg:pl-6 lg:pr-2 px-4 bg-white rounded-[61.102px] border-b-4 border-b-[black] flex items-center justify-between sm:mb-20 mb-10 h-[67px]">
                 <a href="#home">
                     <h2 className="ff-lucky font-normal cursor-pointer leading-[90%] drop-shadow-[0px_1.337px_0px_#000] text-[#FBA11D] sm:text-[40px] text-[28px]">
                         D<span className="text-[#23AAAC]">i</span>
