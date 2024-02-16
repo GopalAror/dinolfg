@@ -25,8 +25,8 @@ function App() {
   useEffect(() => {
     AOS.init(
       {
-        duration:2000,
-        once:true,
+        duration: 2000,
+        once: true,
       }
     );
   }, [])
@@ -48,8 +48,8 @@ function App() {
         <div className='bg-[url(./assets/images/herobg.webp)] overflow-x-clip min-h-[930px] relative sm:bg-full bg-cover bg-no-repeat'>
           <MyNav />
           <Header />
-          <img className='absolute max-w-[100px] sm:max-w-[131px] min-h-[165px] bottom-[18%] right-[40%] animate-movebike1' src={up} alt='up' />
-          <img className='absolute max-w-[180px] sm:max-w-[211px] min-h-[267px] bottom-[10%] right-[8%] animate-movebike2' src={down} alt='up' />
+          <img className='absolute max-w-[80px] object-contain sm:max-w-[131px] min-h-[165px] bottom-[18%] right-[40%] animate-movebike1' src={up} alt='up' />
+          <img className='absolute max-w-[130px] object-contain sm:max-w-[211px] min-h-[267px] bottom-[10%] right-[8%] animate-movebike2' src={down} alt='up' />
         </div>
         <About />
         <Tokenomics />

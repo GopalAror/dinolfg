@@ -6,7 +6,7 @@ const Header = () => {
             <div className="max-w-[1132px] px-3 mx-auto">
                 <div className="flex flex-wrap max-sm:flex-col-reverse flex-row -mx-3">
                     <div className="sm:w-5/12 w-full px-3 flex max-sm:pt-5 items-center justify-center">
-                        <img className='w-full max-w-[394px] animate-bounce2' src={aeroplanehero} alt="aeroplane" data-aos="zoom-in" />
+                        <img className='w-full max-w-[200px] sm:max-w-[394px] animate-bounce2' src={aeroplanehero} alt="aeroplane" data-aos="zoom-in" />
                     </div>
                     <div className="sm:w-7/12 w-full px-3 flex justify-center" data-aos="zoom-in">
                         <h1 className="ff-lucky max-w-[398px] text-center font-normal leading-[90%] drop-shadow-[0px_6px_0px_#000] text-[#FBA11D] md:text-[175px] text-[80px] sm:text-[130px]">
