@@ -22,8 +22,7 @@ const MyNav = () => {
                     </h2>
                 </a>
                 <ul
-                    className={`${show ? "left-[-100%]" : "left-0 bg-[#ffffff]"
-                        } flex items-center gap-6 flex-row max-lg:fixed max-lg:z-50 max-lg:flex-col top-0 max-lg:w-full max-lg:h-full max-lg:min-h-screen max-lg:justify-center transition-all ease-linear duration-300}`}
+                    className={`${show ? "left-[-100%]" : "left-0 bg-[#ffffff]"} flex items-center gap-6 flex-row max-lg:fixed max-lg:z-50 max-lg:flex-col top-0 max-lg:w-full max-lg:h-full max-lg:min-h-screen max-lg:justify-center transition-all ease-linear duration-300}`}
                 >
                     <li onClick={view}
                     >

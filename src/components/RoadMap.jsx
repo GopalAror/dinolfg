@@ -10,12 +10,12 @@ const RoadMap = () => {
             />
             <div className="sm:hidden block absolute sm:left-[70px] left-[40px] bottom-0 top-[10%] h-[85%] w-[15px] border-l-[11px] border-dashed border-[#0a4740]"></div>
             <div className=" max-w-[991px] px-3 mx-auto pb-[60px]">
-                <h2 className=" text-[64px] text-white text-center font-chewy leading-[83px]">
+                <h2 className="sm:text-[48px] md:text-[69px] text-[30px] text-white text-center font-chewy leading-[83px]">
                     Roadmap
                 </h2>
                 <div className=" max-sm:after:absolute max-sm:relative after:bg-[#FBA11D]  max-sm:after:border-2 after:border-white  after:w-[30px] after:h-[30px] after:rounded-full after:left-[5.5%] after:top-[10%] max-w-[440px] lg:max-w-[630px] sm:mt-[97px] mt-[25px]" data-aos="fade-right">
-                    <div className="max-sm:flex-col flex sm:items-center max-sm:ml-[90px] gap-[45px]">
-                        <h3 className=" text-[#FBA11D] text-[60px]  lg:text-[200px] font-chewy leading-[100px] lg:leading-[261px]">
+                    <div className="max-sm:flex-col flex sm:items-center max-sm:ml-[90px] gap-[25px] sm:gap-[45px]">
+                        <h3 className=" text-[#FBA11D] text-[100px]  lg:text-[200px] font-chewy leading-[100px] lg:leading-[261px]">
                             01
                         </h3>
                         <ul>
@@ -32,8 +32,8 @@ const RoadMap = () => {
                     </div>
                 </div>
                 <div className="max-sm:after:absolute max-sm:relative after:bg-[#8EC627]  max-sm:after:border-2 after:border-white  after:w-[30px] after:h-[30px] after:rounded-full after:left-[5.5%] after:top-[10%] max-w-[440px] lg:max-w-[630px] sm:ml-[13%] sm:mt-[194px] mt-[50px]" data-aos="fade-left">
-                    <div className="max-sm:flex-col flex sm:items-center ml-[90px]  gap-[45px]">
-                        <h3 className=" text-[#8EC627] text-[60px] lg:text-[200px] font-chewy leading-[100px] lg:leading-[261px]">
+                    <div className="max-sm:flex-col flex sm:items-center ml-[90px] gap-[25px] sm:gap-[45px]">
+                        <h3 className=" text-[#8EC627] text-[100px] lg:text-[200px] font-chewy leading-[100px] lg:leading-[261px]">
                             02
                         </h3>
                         <ul>
@@ -50,8 +50,8 @@ const RoadMap = () => {
                     </div>
                 </div>
                 <div className="max-sm:after:absolute max-sm:relative after:bg-[#D45B07]  max-sm:after:border-2 after:border-white  after:w-[30px] after:h-[30px] after:rounded-full after:left-[5.5%] after:top-[10%] max-w-[440px] lg:max-w-[630px]  sm:mt-[128px] mt-[50px]" data-aos="fade-right">
-                    <div className="max-sm:flex-col flex sm:items-center max-sm:ml-[90px] gap-[45px]">
-                        <h3 className=" text-[#D45B07] text-[60px] lg:text-[200px] font-chewy leading-[100px] lg:leading-[261px]">
+                    <div className="max-sm:flex-col flex sm:items-center max-sm:ml-[90px] gap-[25px] sm:gap-[45px]">
+                        <h3 className=" text-[#D45B07] text-[100px] lg:text-[200px] font-chewy leading-[100px] lg:leading-[261px]">
                             03
                         </h3>
                         <ul>
@@ -68,8 +68,8 @@ const RoadMap = () => {
                     </div>
                 </div>
                 <div className="max-sm:after:absolute max-sm:relative after:bg-[#23AAAC]  max-sm:after:border-2 after:border-white  after:w-[30px] after:h-[30px] after:rounded-full after:left-[5.5%] after:top-[10%] max-w-[440px] lg:max-w-[630px] sm:ml-auto  sm:py-[128px] mt-[50px]" data-aos="fade-left">
-                    <div className="max-sm:flex-col flex sm:items-center max-sm:ml-[90px] gap-[45px]">
-                        <h3 className=" text-[#23AAAC] text-[60px] lg:text-[200px] font-chewy leading-[100px] lg:leading-[261px]">
+                    <div className="max-sm:flex-col flex sm:items-center max-sm:ml-[90px] gap-[25px] sm:gap-[45px]">
+                        <h3 className=" text-[#23AAAC] text-[100px] lg:text-[200px] font-chewy leading-[100px] lg:leading-[261px]">
                             04
                         </h3>
                         <ul>

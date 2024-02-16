@@ -27,7 +27,7 @@ const Faq = () => {
             <div className="relative z-[6] bg-[#0a4740] overflow-x-clip">
                 <div className="max-w-[800px] mx-auto px-3 relative z-[1]" id='Faq'>
                     <div className="  pb-[12px]">
-                        <h2 className="text-[64px]  font-chewy leading-[84px] font-normal text-center mb-6 md:mb-[61px] text-white">
+                        <h2 className="sm:text-[48px] md:text-[69px] text-[30px] font-chewy leading-[84px] font-normal text-center mb-6 md:mb-[61px] text-white">
                             Faq
                         </h2>
                         <Accordion
@@ -41,7 +41,7 @@ const Faq = () => {
                             >
                                 Maecenas laoreet, sapien vel cursus ultricies?
                             </AccordionHeader>
-                            <AccordionBody className="font-Balsamiq-Sans text-[14px] sm:text-[16px]  font-boldpx-5 sm:px-10 leading-[120%] sm:leading-[160%]  py-3 text-[#CCD0D1] max-w-[880px] pt-2">
+                            <AccordionBody className="font-Balsamiq-Sans text-[14px] sm:text-[16px]  font-bold px-5 sm:px-10 leading-[120%] sm:leading-[160%]  py-3 text-[#CCD0D1] max-w-[880px] pt-2">
                                 En Exclusive Games, ofrecemos experiencias únicas y
                                 personalizadas, respaldadas por más de 15 años de dedicación al
                                 desarrollo de multiplataformas para juegos de azar.
@@ -58,7 +58,7 @@ const Faq = () => {
                             >
                                 Maecenas laoreet, sapien vel cursus ultricies?
                             </AccordionHeader>
-                            <AccordionBody className="font-Balsamiq-Sans text-[14px] md:text-[16px] font-medium leading-[120%] sm:leading-[160%]px-5 sm:px-10  py-3 text-[#CCD0D1] max-w-[880px] pt-2">
+                            <AccordionBody className="font-Balsamiq-Sans text-[14px] md:text-[16px] font-medium leading-[120%] sm:leading-[160%] px-5 sm:px-10  py-3 text-[#CCD0D1] max-w-[880px] pt-2">
                                 En Exclusive Games, ofrecemos experiencias únicas y
                                 personalizadas, respaldadas por más de 15 años de dedicación al
                                 desarrollo de multiplataformas para juegos de azar.
@@ -76,7 +76,7 @@ const Faq = () => {
                                 {" "}
                                 Maecenas laoreet, sapien vel cursus ultricies?
                             </AccordionHeader>
-                            <AccordionBody className="font-Balsamiq-Sans text-[14px]  md:text-[16px] font-medium leading-[120%] sm:leading-[160%]px-5 sm:px-10 py-3 text-[#CCD0D1] max-w-[880px] pt-2  ">
+                            <AccordionBody className="font-Balsamiq-Sans text-[14px]  md:text-[16px] font-medium leading-[120%] sm:leading-[160%] px-5 sm:px-10 py-3 text-[#CCD0D1] max-w-[880px] pt-2  ">
                                 En Exclusive Games, ofrecemos experiencias únicas y
                                 personalizadas, respaldadas por más de 15 años de dedicación al
                                 desarrollo de multiplataformas para juegos de azar.
@@ -93,7 +93,7 @@ const Faq = () => {
                             >
                                 Maecenas laoreet, sapien vel cursus ultricies?
                             </AccordionHeader>
-                            <AccordionBody className="font-Balsamiq-Sans text-[14px]  md:text-[16px] font-medium leading-[120%] sm:leading-[160%]px-5 sm:px-10 py-3 text-[#CCD0D1] max-w-[880px] pt-2  ">
+                            <AccordionBody className="font-Balsamiq-Sans text-[14px]  md:text-[16px] font-medium leading-[120%] sm:leading-[160%] px-5 sm:px-10 py-3 text-[#CCD0D1] max-w-[880px] pt-2  ">
                                 En Exclusive Games, ofrecemos experiencias únicas y
                                 personalizadas, respaldadas por más de 15 años de dedicación al
                                 desarrollo de multiplataformas para juegos de azar.
@@ -110,7 +110,7 @@ const Faq = () => {
                             >
                                 Maecenas laoreet, sapien vel cursus ultricies?
                             </AccordionHeader>
-                            <AccordionBody className="font-Balsamiq-Sans text-base  md:text-[16px]px-5 sm:px-10 font-medium leading-[120%] sm:leading-[160%] py-3 text-[#CCD0D1] max-w-[880px] pt-2  ">
+                            <AccordionBody className="font-Balsamiq-Sans text-base  md:text-[16px] px-5 sm:px-10 font-medium leading-[120%] sm:leading-[160%] py-3 text-[#CCD0D1] max-w-[880px] pt-2  ">
                                 En Exclusive Games, ofrecemos experiencias únicas y
                                 personalizadas, respaldadas por más de 15 años de dedicación al
                                 desarrollo de multiplataformas para juegos de azar.
