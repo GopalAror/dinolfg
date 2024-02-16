@@ -15,16 +15,18 @@ import short from "../assets/images/short-tree.svg";
 import img1 from "../assets/images/short-tree-img1.webp";
 import img2 from "../assets/images/short-tree-img2.webp";
 import chart from "../assets/images/TokenFullChart.webp";
+import rightellipis from "../assets/images/right-ellipis.svg";
 const Tokenomics = () => {
     return (
         <div className='relative overflow-x-clip'>
+            <img className='absolute right-0 top-[-10%]' src={rightellipis} alt="right" />
             <div className="max-w-[1140px] relative z-[2] pb-[190px] lg:pb-[43px] px-3 mx-auto flex flex-col items-center" id='Tokenomic'>
                 <h2 className='text-white text-center font-chewy font-normal sm:text-[48px] text-[30px] md:text-[64px] mb-[20px] sm:mb-[80px] leading-[48px] sm:leading-[83px]'>Tokenomics</h2>
                 <div className='flex items-start justify-between'>
                     <div className="flex max-sm:hidden items-center pt-[50px] mr-5 gap-[17px]" data-aos="fade-right">
                         <div className='flex-col flex items-end'>
-                            <p className='text-[#FBA11D] font-Balsamiq-Sans font-normal text-[16px] sm:text-[18px] md:text-[32px] leading-[20px] sm:leading-[38px]'>333,333,333</p>
-                            <p className='text-white font-Balsamiq-Sans font-normal text-[16px] md:text-[24px] leading-[20px] sm:leading-[33px]'>Supply</p>
+                            <p className='text-[#FBA11D] font-Balsamiq-Sans font-normal text-[20px] sm:text-[26px] md:text-[32px] leading-[20px] sm:leading-[38px]'>333,333,333</p>
+                            <p className='text-white font-Balsamiq-Sans font-normal text-[18px] md:text-[24px] leading-[20px] sm:leading-[33px]'>Supply</p>
                         </div>
                         <img src={svg1} alt="svg1" />
                     </div>
@@ -38,7 +40,7 @@ const Tokenomics = () => {
                     <div className="flex max-sm:hidden items-center pt-[50px] md:ml-1 lg:ml-5 gap-[17px]" data-aos="fade-left">
                         <img src={svg2} alt="svg1" />
                         <div className='flex-col flex items-start'>
-                            <p className='text-[#8EC627] font-Balsamiq-Sans font-normal text-[16px] sm:text-[18px] md:text-[32px] leading-[20px] sm:leading-[38px] max-w-[217px]'>Liquidity lock for 1 year</p>
+                            <p className='text-[#8EC627] font-Balsamiq-Sans font-normal text-[20px] sm:text-[26px] md:text-[32px] leading-[20px] sm:leading-[38px] max-w-[217px]'>Liquidity lock for 1 year</p>
                         </div>
                     </div>
                 </div>
@@ -47,7 +49,7 @@ const Tokenomics = () => {
                         <div className='flex flex-col items-end'>
                             <p className='text-[#23AAAC] font-Balsamiq-Sans font-normal text-[20px] md:text-[32px] leading-[20px] sm:leading-[38px] max-w-[217px]'>95% Uniswa</p>
                             <p className='text-[#23AAAC] font-Balsamiq-Sans font-normal text-[20px] md:text-[32px] leading-[20px] sm:leading-[38px] max-w-[217px]'>5% Marketing</p>
-                            <p className='text-white font-Balsamiq-Sans font-normal text-[16px] md:text-[24px] leading-[20px] sm:leading-[33px]'>Allocation</p>
+                            <p className='text-white font-Balsamiq-Sans font-normal text-[18px] md:text-[24px] leading-[20px] sm:leading-[33px]'>Allocation</p>
                         </div>
                         <img src={svg3} alt="svg1" />
                     </div>
@@ -69,15 +71,15 @@ const Tokenomics = () => {
                         <div className="flex min-h-[70px] items-center gap-[20px] w-full border-dashed border-2 rounded-[16px] px-3 border-[#FBA11D]">
                             <div className="h-[36px] w-[36px] bg-[#FBA11D] rounded-[12px] border border-white"></div>
                             <div className="">
-                                <p className='text-[#FBA11D] font-Balsamiq-Sans font-normal text-[16px] sm:text-[18px] md:text-[32px] leading-[20px] sm:leading-[38px]'>333,333,333</p>
-                                <p className='text-white font-Balsamiq-Sans font-normal text-[16px] md:text-[24px] leading-[20px] sm:leading-[33px]'>Supply</p></div>
+                                <p className='text-[#FBA11D] font-Balsamiq-Sans font-normal text-[20px] sm:text-[26px] md:text-[32px] leading-[20px] sm:leading-[38px]'>333,333,333</p>
+                                <p className='text-white font-Balsamiq-Sans font-normal text-[18px] md:text-[24px] leading-[20px] sm:leading-[33px]'>Supply</p></div>
                         </div>
                     </div>
                     <div className='w-6/12 max-[500px]:w-full px-3 pt-5'>
                         <div className="flex min-h-[70px] items-center py-4 gap-[20px] w-full border-dashed border-2 rounded-[16px] px-3 border-[#8EC627]">
                             <div className="h-[36px] w-[36px] bg-[#8EC627] rounded-[12px] border border-white"></div>
                             <div className="">
-                                <p className='text-[#8EC627] font-Balsamiq-Sans font-normal text-[16px] sm:text-[18px] md:text-[32px] leading-[20px] sm:leading-[38px]'>Liquidity lock for 1 year</p>
+                                <p className='text-[#8EC627] font-Balsamiq-Sans font-normal text-[20px] sm:text-[26px] md:text-[32px] leading-[20px] sm:leading-[38px]'>Liquidity lock for 1 year</p>
                             </div>
                         </div>
                     </div>
@@ -85,16 +87,16 @@ const Tokenomics = () => {
                         <div className="flex min-h-[70px] items-center gap-[20px] w-full border-dashed border-2 rounded-[16px] px-3 border-[#23AAAC]">
                             <div className="h-[36px] w-[36px] bg-[#23AAAC] rounded-[12px] border border-white"></div>
                             <div className="">
-                                <p className='text-[#23AAAC] font-Balsamiq-Sans font-normal text-[16px] sm:text-[18px] md:text-[32px] leading-[20px] sm:leading-[38px]'>95% Uniswa</p>
-                                <p className='text-[#23AAAC] font-Balsamiq-Sans font-normal text-[16px] sm:text-[18px] md:text-[32px] leading-[20px] sm:leading-[38px]'>5% Marketing</p>
-                                <p className='text-white font-Balsamiq-Sans font-normal text-[16px] md:text-[24px] leading-[20px] sm:leading-[33px]'>Allocation</p></div>
+                                <p className='text-[#23AAAC] font-Balsamiq-Sans font-normal text-[20px] sm:text-[26px] md:text-[32px] leading-[20px] sm:leading-[38px]'>95% Uniswa</p>
+                                <p className='text-[#23AAAC] font-Balsamiq-Sans font-normal text-[20px] sm:text-[26px] md:text-[32px] leading-[20px] sm:leading-[38px]'>5% Marketing</p>
+                                <p className='text-white font-Balsamiq-Sans font-normal text-[18px] md:text-[24px] leading-[20px] sm:leading-[33px]'>Allocation</p></div>
                         </div>
                     </div>
                     <div className='w-6/12 max-[500px]:w-full px-3 pt-5'>
                         <div className="flex min-h-[70px] items-center gap-[20px] w-full border-dashed border-2 rounded-[16px] px-3 border-[#D45B07]">
                             <div className="h-[36px] w-[36px] bg-[#D45B07] rounded-[12px] border border-white"></div>
                             <div className="">
-                                <p className='text-[#D45B07] font-Balsamiq-Sans font-normal text-[16px] sm:text-[18px] md:text-[32px] leading-[20px] sm:leading-[38px]'>No Tax</p>
+                                <p className='text-[#D45B07] font-Balsamiq-Sans font-normal text-[20px] sm:text-[26px] md:text-[32px] leading-[20px] sm:leading-[38px]'>No Tax</p>
                             </div>
                         </div>
                     </div>
@@ -102,7 +104,7 @@ const Tokenomics = () => {
                         <div className="flex min-h-[70px] items-center gap-[20px] w-full border-dashed border-2 rounded-[16px] px-3 border-[#FB5352]">
                             <div className="h-[36px] w-[36px] bg-[#FB5352] rounded-[12px] border border-white"></div>
                             <div className="">
-                                <p className='text-[#FB5352] font-Balsamiq-Sans font-normal text-[16px] sm:text-[18px] md:text-[32px] leading-[20px] sm:leading-[38px]'>No Mint Function</p>
+                                <p className='text-[#FB5352] font-Balsamiq-Sans font-normal text-[20px] sm:text-[26px] md:text-[32px] leading-[20px] sm:leading-[38px]'>No Mint Function</p>
                             </div>
                         </div>
                     </div>

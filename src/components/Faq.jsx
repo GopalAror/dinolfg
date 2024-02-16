@@ -37,11 +37,11 @@ const Faq = () => {
                         >
                             <AccordionHeader
                                 onClick={() => handleOpen(1)}
-                                className="  font-Balsamiq-Sans  px-5 py-3 sm:py-[20px] text-[15px] sm:text-xl text-start font-bold  text-white leading-[24px]  border-transparent"
+                                className="  font-Balsamiq-Sans px-5 sm:px-10 py-3 sm:py-[20px] text-[16px] sm:text-xl text-start font-bold  text-white leading-[24px]  border-transparent"
                             >
                                 Maecenas laoreet, sapien vel cursus ultricies?
                             </AccordionHeader>
-                            <AccordionBody className="font-Balsamiq-Sans text-[14px] sm:text-[16px]  font-bold px-5 leading-[120%] sm:leading-[160%]  py-3 text-[#CCD0D1] max-w-[880px] pt-2">
+                            <AccordionBody className="font-Balsamiq-Sans text-[14px] sm:text-[16px]  font-boldpx-5 sm:px-10 leading-[120%] sm:leading-[160%]  py-3 text-[#CCD0D1] max-w-[880px] pt-2">
                                 En Exclusive Games, ofrecemos experiencias únicas y
                                 personalizadas, respaldadas por más de 15 años de dedicación al
                                 desarrollo de multiplataformas para juegos de azar.
@@ -54,11 +54,11 @@ const Faq = () => {
                         >
                             <AccordionHeader
                                 onClick={() => handleOpen(2)}
-                                className="font-Balsamiq-Sans  px-5 py-3 sm:py-[20px] text-[15px] sm:text-xl text-start font-bold text-white leading-[24px] border-transparent"
+                                className="font-Balsamiq-Sans px-5 sm:px-10 py-3 sm:py-[20px] text-[16px] sm:text-xl text-start font-bold text-white leading-[24px] border-transparent"
                             >
                                 Maecenas laoreet, sapien vel cursus ultricies?
                             </AccordionHeader>
-                            <AccordionBody className="font-Balsamiq-Sans text-[14px] md:text-[16px] font-medium leading-[120%] sm:leading-[160%] px-5  py-3 text-[#CCD0D1] max-w-[880px] pt-2">
+                            <AccordionBody className="font-Balsamiq-Sans text-[14px] md:text-[16px] font-medium leading-[120%] sm:leading-[160%]px-5 sm:px-10  py-3 text-[#CCD0D1] max-w-[880px] pt-2">
                                 En Exclusive Games, ofrecemos experiencias únicas y
                                 personalizadas, respaldadas por más de 15 años de dedicación al
                                 desarrollo de multiplataformas para juegos de azar.
@@ -71,12 +71,12 @@ const Faq = () => {
                         >
                             <AccordionHeader
                                 onClick={() => handleOpen(3)}
-                                className="font-Balsamiq-Sans  px-5 py-3 sm:py-[20px] text-[15px] sm:text-xl text-start font-bold text-white leading-[24px] border-transparent"
+                                className="font-Balsamiq-Sans px-5 sm:px-10 py-3 sm:py-[20px] text-[16px] sm:text-xl text-start font-bold text-white leading-[24px] border-transparent"
                             >
                                 {" "}
                                 Maecenas laoreet, sapien vel cursus ultricies?
                             </AccordionHeader>
-                            <AccordionBody className="font-Balsamiq-Sans text-[14px]  md:text-[16px] font-medium leading-[120%] sm:leading-[160%] px-5 py-3 text-[#CCD0D1] max-w-[880px] pt-2  ">
+                            <AccordionBody className="font-Balsamiq-Sans text-[14px]  md:text-[16px] font-medium leading-[120%] sm:leading-[160%]px-5 sm:px-10 py-3 text-[#CCD0D1] max-w-[880px] pt-2  ">
                                 En Exclusive Games, ofrecemos experiencias únicas y
                                 personalizadas, respaldadas por más de 15 años de dedicación al
                                 desarrollo de multiplataformas para juegos de azar.
@@ -89,11 +89,11 @@ const Faq = () => {
                         >
                             <AccordionHeader
                                 onClick={() => handleOpen(4)}
-                                className="font-Balsamiq-Sans  px-5 py-3 sm:py-[20px] text-[15px] sm:text-xl text-start font-bold text-white leading-[24px] border-transparent"
+                                className="font-Balsamiq-Sans px-5 sm:px-10 py-3 sm:py-[20px] text-[16px] sm:text-xl text-start font-bold text-white leading-[24px] border-transparent"
                             >
                                 Maecenas laoreet, sapien vel cursus ultricies?
                             </AccordionHeader>
-                            <AccordionBody className="font-Balsamiq-Sans text-[14px]  md:text-[16px] font-medium leading-[120%] sm:leading-[160%] px-5 py-3 text-[#CCD0D1] max-w-[880px] pt-2  ">
+                            <AccordionBody className="font-Balsamiq-Sans text-[14px]  md:text-[16px] font-medium leading-[120%] sm:leading-[160%]px-5 sm:px-10 py-3 text-[#CCD0D1] max-w-[880px] pt-2  ">
                                 En Exclusive Games, ofrecemos experiencias únicas y
                                 personalizadas, respaldadas por más de 15 años de dedicación al
                                 desarrollo de multiplataformas para juegos de azar.
@@ -106,11 +106,11 @@ const Faq = () => {
                         >
                             <AccordionHeader
                                 onClick={() => handleOpen(5)}
-                                className="font-Balsamiq-Sans  px-5 py-3 sm:py-[20px] text-[15px] sm:text-xl text-start font-bold text-white leading-[24px]  border-transparent"
+                                className="font-Balsamiq-Sans px-5 sm:px-10 py-3 sm:py-[20px] text-[16px] sm:text-xl text-start font-bold text-white leading-[24px]  border-transparent"
                             >
                                 Maecenas laoreet, sapien vel cursus ultricies?
                             </AccordionHeader>
-                            <AccordionBody className="font-Balsamiq-Sans text-base  md:text-[16px] px-5 font-medium leading-[120%] sm:leading-[160%] py-3 text-[#CCD0D1] max-w-[880px] pt-2  ">
+                            <AccordionBody className="font-Balsamiq-Sans text-base  md:text-[16px]px-5 sm:px-10 font-medium leading-[120%] sm:leading-[160%] py-3 text-[#CCD0D1] max-w-[880px] pt-2  ">
                                 En Exclusive Games, ofrecemos experiencias únicas y
                                 personalizadas, respaldadas por más de 15 años de dedicación al
                                 desarrollo de multiplataformas para juegos de azar.
