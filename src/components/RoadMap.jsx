@@ -31,7 +31,7 @@ const RoadMap = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="max-sm:after:absolute max-sm:relative after:bg-[#8EC627]  max-sm:after:border-2 after:border-white  after:w-[30px] after:h-[30px] after:rounded-full after:left-[5.5%] after:top-[10%] max-w-[440px] lg:max-w-[630px] sm:ml-[13%] sm:mt-[194px] mt-[50px]" data-aos="fade-left">
+                <div className="max-sm:after:absolute max-sm:relative after:bg-[#8EC627]  max-sm:after:border-2 after:border-white  after:w-[30px] after:h-[30px] after:rounded-full after:left-[5.5%] after:top-[10%] max-w-[440px] lg:max-w-[700px] sm:ml-[13%] sm:mt-[194px] mt-[50px]" data-aos="fade-left">
                     <div className="max-sm:flex-col flex sm:items-center ml-[90px] gap-[25px] sm:gap-[45px]">
                         <h3 className=" text-[#8EC627] text-[100px] lg:text-[200px] font-chewy leading-[100px] lg:leading-[261px]">
                             02
